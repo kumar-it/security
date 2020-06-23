@@ -1,0 +1,21 @@
+package com.mobile.app.io.Entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity(name="users") //name of tht table. 
+public class UserEntity implements Serializable{
+
+	private static final long serialVersionUID = 2005568953635736141L;
+
+
+	//This can hold the information that we are going to store & generate. 
+	
+	//This is going to be primary key and auto increment. 
+	@Id
+	@GeneratedValue
+	private long id;
+}

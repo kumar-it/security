@@ -1,0 +1,5 @@
+package com.mobile.app.io.Entity;
+
+public class UserEntity {
+
+}

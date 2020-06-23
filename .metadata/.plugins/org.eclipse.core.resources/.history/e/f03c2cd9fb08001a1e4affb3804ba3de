@@ -1,0 +1,13 @@
+package com.mobile.app.service.impl;
+
+import com.mobile.app.service.UserService;
+import com.mobile.app.shared.dto.UserDto;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserDto createUser(UserDto user) {
+		return null;
+	}
+
+}

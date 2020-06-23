@@ -1,0 +1,6 @@
+server.port=5555
+
+
+# This is 2nd way of creating the 'username' & 'pwd' 
+spring.security.user.name=kumar
+spring.security.user.password=abc123

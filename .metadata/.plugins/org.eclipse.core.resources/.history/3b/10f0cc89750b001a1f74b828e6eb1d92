@@ -1,0 +1,5 @@
+package com.easy_notes.exception;
+
+public class ResourceNotFoundException {
+
+}

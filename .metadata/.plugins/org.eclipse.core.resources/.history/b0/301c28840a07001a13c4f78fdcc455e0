@@ -1,0 +1,5 @@
+package com.app.configure;
+
+public class SecurityConfiguration {
+
+}

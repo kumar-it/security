@@ -1,0 +1,10 @@
+package com.easy_notes.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.easy_notes.model.Note;
+import com.sun.xml.bind.v2.model.core.ID;
+
+public interface NoteRepository extends JpaRepository<Note, Long> {
+
+}

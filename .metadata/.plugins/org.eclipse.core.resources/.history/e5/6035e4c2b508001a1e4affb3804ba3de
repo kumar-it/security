@@ -1,0 +1,5 @@
+package com.mobile.app.model.reponse;
+
+public class UserRest {
+
+}

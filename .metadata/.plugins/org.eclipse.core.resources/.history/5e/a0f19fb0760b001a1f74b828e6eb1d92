@@ -1,0 +1,20 @@
+package com.easy_notes.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class NoteController {
+
+	// Get All Notes
+
+	// Create a new Note
+
+	// Get a Single Note
+
+	// Update a Note
+
+	// Delete a Note
+
+}

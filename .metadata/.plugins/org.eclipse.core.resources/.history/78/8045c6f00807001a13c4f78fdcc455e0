@@ -1,0 +1,34 @@
+package com.app.controller;
+
+import java.security.Principal;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	/*
+	
+	@GetMapping("/hello")
+	public String hello(@RequestParam String name) {
+		return "hello there " + name;
+	}
+	
+	*/
+	
+	
+	/*
+	@GetMapping("/hello")
+	public String hello(@RequestParam String name, Principal user) {
+		return "hello there " + user.getName();
+	}
+	*/
+	
+	@GetMapping("/hello")
+	public String hello(@RequestParam String name, Principal user) {
+		return "hello there " + user.getName();
+	}
+	
+}

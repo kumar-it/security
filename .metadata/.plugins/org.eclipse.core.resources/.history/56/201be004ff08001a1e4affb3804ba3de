@@ -1,0 +1,8 @@
+package com.mobile.app;
+
+import org.springframework.data.repository.CrudRepository;
+
+//Spring data jpa it's very easy for crud. 
+public interface UserRepository extends CrudRepository<T, ID> {
+
+}

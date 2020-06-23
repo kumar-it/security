@@ -1,0 +1,19 @@
+package com.mobile.app;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.mobile.app.io.Entity.UserEntity;
+import com.sun.xml.bind.v2.model.core.ID;
+
+//Spring data JPA it's very easy for CRUD. 
+
+@Repository
+public interface UserRepository<T> extends CrudRepository<UserEntity, Long> {
+	
+	//Need to write custom login for finduserbyid, deletebyid, ..etc
+	
+	UserEntity findUseByEmail(String email);
+	
+
+}

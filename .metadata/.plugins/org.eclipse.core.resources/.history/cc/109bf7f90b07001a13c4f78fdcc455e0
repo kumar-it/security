@@ -1,0 +1,15 @@
+package com.app.configure;
+
+
+
+@Configuration
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
+	
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth.inMemoryAuthentication()
+		.withUser("kumar").password("abc123").authorities("admin").
+		and().
+		withUser("kumar").password("123abc").authorities("admin");
+	}
+}

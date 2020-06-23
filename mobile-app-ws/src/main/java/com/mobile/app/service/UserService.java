@@ -1,0 +1,9 @@
+package com.mobile.app.service;
+
+import com.mobile.app.shared.dto.UserDto;
+
+public interface UserService {
+	
+	UserDto createUser(UserDto user);
+
+}

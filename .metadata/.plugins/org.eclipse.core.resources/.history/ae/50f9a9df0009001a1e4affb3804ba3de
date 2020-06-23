@@ -1,0 +1,18 @@
+package com.mobile.app.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.mobile.app.service.UserService;
+import com.mobile.app.shared.dto.UserDto;
+
+
+//Here we write all the business logics. 
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserDto createUser(UserDto user) {
+		return null;
+	}
+
+}

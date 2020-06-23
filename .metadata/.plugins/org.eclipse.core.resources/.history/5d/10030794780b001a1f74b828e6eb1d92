@@ -1,0 +1,40 @@
+package com.easy_notes.controller;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.easy_notes.model.Note;
+import com.easy_notes.repository.NoteRepository;
+
+@RestController
+@RequestMapping("/api") // declares that the url for all the apis in this controller will start with
+						// /api
+public class NoteController {
+
+	@Autowired
+	NoteRepository noteRepository;
+
+	// Get All Notes
+	public List<Note>getAllNotes() {
+		return noteRepository.findAll();
+	
+	}
+	// Create a new Note
+	public Note createNote(@Valid @RequestBody Note note) {
+		return noteRepository.save(note);
+		
+	}
+
+	// Get a Single Note
+
+	// Update a Note
+
+	// Delete a Note
+
+}

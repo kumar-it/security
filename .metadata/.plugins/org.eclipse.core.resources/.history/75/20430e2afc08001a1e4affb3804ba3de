@@ -1,0 +1,11 @@
+package com.mobile.app.io.Entity;
+
+import java.io.Serializable;
+
+public class UserEntity implements Serializable{
+
+
+	
+	
+
+}

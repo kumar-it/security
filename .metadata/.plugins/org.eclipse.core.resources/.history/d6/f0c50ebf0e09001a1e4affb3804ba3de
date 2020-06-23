@@ -1,0 +1,14 @@
+server.port=7777
+
+#===============================================================
+# Spring data JPA configuration to communicate with the database. 
+#===============================================================
+# database user name
+spring.datasource.data-username=root
+# database user password
+spring.datasource.data-password=root
+# database url
+spring.datasource.url=jdbc:mysql://localhost:3306/photo_app
+# this create a database schema for us
+spring.jpa.hibernate.ddl-auto=update
+

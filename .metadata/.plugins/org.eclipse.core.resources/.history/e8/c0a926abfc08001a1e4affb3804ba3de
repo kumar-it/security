@@ -1,0 +1,13 @@
+package com.mobile.app.io.Entity;
+
+import java.io.Serializable;
+
+public class UserEntity implements Serializable{
+
+	private static final long serialVersionUID = 2005568953635736141L;
+
+
+	//This can hold the information that we are going to store & generate. 
+	
+
+}

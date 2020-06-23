@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Security-demo-1/C:\/Users\/sudhi\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.1.6.RELEASE\/spring-security-core-5.1.6.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetails.class[UserDetails" modifiers="1537" timestamp="1569410631016"/>
+    <typeInfo handle="=mobile-app-ws/C:\/Users\/sudhi\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.1.RELEASE\/spring-data-commons-2.2.1.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1573508069603"/>
+    <typeInfo handle="=mobile-app-ws/C:\/Users\/sudhi\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.1.RELEASE\/spring-data-jpa-2.2.1.RELEASE.jar&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1573508069465"/>
+    <typeInfo handle="=Easy-notes/C:\/Users\/sudhi\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.1.RELEASE\/spring-data-jpa-2.2.1.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1573508069465"/>
+</typeInfoHistroy>

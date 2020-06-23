@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.eas_ynotes&apos; to &apos;com.easy_notes&apos;&#x0D;&#x0A;- Original project: &apos;Easy-notes&apos;&#x0D;&#x0A;- Original element: &apos;Easy-notes/src/main/java/com.eas_ynotes&apos;&#x0D;&#x0A;- Renamed element: &apos;Easy-notes/src/main/java/com.easy_notes&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.eas_ynotes&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.eas_ynotes" name="com.easy_notes" qualified="false" references="true" stamp="1574239301130" textual="false" version="1.0"/>
+</session>
